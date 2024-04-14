@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de caixa em Css</title>
+  <style>
+  Body {
+    font-size: 0.9em;
+  }
+  
+  h1 {    
+    border: 2px dashed gray;
+    padding: 5px;
+    margin: 5px;
+    outline: 1px dashed gray;
+  }
+  
+  div {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: red;
+    border: 2px solid darkred;
+    padding: 10px;
+    box-shadow: 2px 2px 2px gray;
+  }
+  
+    div:hover {
+    width: 95px;
+    height: 95px;
+    margin: 20px auto 25px;
+    background-color: blue;
+    border: 2px solid darkblue;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  /* tambem há o display inline-block */
+  </style>
+</head>
+<body>
+    <header>
+      <h1>Tipos de caixa em Css</h1>
+    </header>
+  <hr>
+    <main>
+      <h2>Caixas Box-Level (block)</h2>
+      <div></div>
+      <p>São caixas que ocupam uma linha inteira. Ex:</p>
+      <ul>
+        <li>Tags h1</li>
+        <li>Tags p</li>
+        <li>Divs</li>
+      </ul>
+      <h2>Caixas inline-level (inline)</h2>
+      <p>São caixas que ocupam apenas o espaço necessario. Ex:</p>
+      <ul>
+        <li>Links</li>
+        <li>Tags span</li>
+        <li>inputs ou buttons</li>
+      </ul>
+      <h1>Partes das caixas</h1>
+      <ul>
+        <li>Espaço do conteudo (pode ser modificado por height e width)</li>
+          <li>padding</li>
+          <li>border</li>
+          <li>outline</li>
+          <li>margin</li>
+      </ul>
+
+    </main>
+  <hr>
+    <footer>
+      
+      <p>&copy; Gabriel Fernandes Couto</p>
+    </footer>
+</body>
+</html>

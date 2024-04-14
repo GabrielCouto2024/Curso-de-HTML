@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familia de fontes</title>
+  <style>  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    
+    /* lighter, normal, bold, bolder.
+    tambem existe a variação numerica que vai de 100 a 900 pulando de 100 em 100
+    */
+    
+    font-style: italic;
+  }
+  
+  /* Medidas absolutas: cm, mm, in (polegada), px, pt, pc.
+  
+  Medidas relativas: em, ex, rem, vw, vh, %. 
+  
+  16px geralmente = 1em
+  */
+  
+  h1, h2 { 
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+  }
+  
+  .paragraph {
+    /*font-size: 1em;
+    font-weight: bold;
+    font-family: serif;
+    font-style: italic;
+    
+    shorthand => font:;
+    ordem: font-style, font-weight, font-size & font-family.
+    */
+    
+    font: italic bold 1em serif;
+  }
+  
+  </style>
+</head>
+<body>
+    <header>
+      <h1>Fontes Em Css</h1>
+    </header>
+  <hr>
+    <main>
+      <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum urna eget odio fringilla, sit amet mattis purus ultricies. Integer euismod tortor at elit vehicula, id venenatis dui sagittis. Nulla facilisi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum urna eget odio fringilla, sit amet mattis purus ultricies. Integer euismod tortor at elit vehicula, id venenatis dui sagittis. Nulla facilisi.
+      </p>
+      <h2>Titulo 2</h2>
+      <p class="paragraph">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum urna eget odio fringilla, sit amet mattis purus ultricies. Integer euismod tortor at elit vehicula, id venenatis dui sagittis. Nulla facilisi.
+      </p>
+    </main>
+  <hr>
+    <footer>
+      <p>&copy; Gabriel Fernandes Couto</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>
+    Hello, World!
+  </h1>
+  <script>
+  var bebidas = ['SUCO','REFRIGERANTE','CERVEJA','AGUA']
+  document.write (bebidas[1]+ '<br>')
+  
+  var num = [4,8,0,7,3,2,9,5,6]  
+  document.write(num + '<br>')
+  document.write(num.length + '<br>')
+  
+  num.push(1)
+  num.sort()
+  
+  for(var pos=1; pos < num.length; pos++){
+    document.write(num[pos] + ' ')
+  } 
+    document.write('<br>' + num.length + '<br>')
+    
+    for (var pos in num) {
+document.write (num[pos] + ' ')  
+}
+  
+  document.write('<br>' + num.indexOf(1))
+  </script>
+</body>
+</html>

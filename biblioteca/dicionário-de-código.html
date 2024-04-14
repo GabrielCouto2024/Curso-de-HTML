@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello, World!</title>
+  <style>
+  mark {
+    background-color: gold;
+  }
+  
+  .boss {
+    color: purple;
+  }
+  
+  .title {
+    color: lightgreen;
+  }
+  </style>
+</head>
+<body>
+  
+  <h1 class="boss"> APRENDENDO HTML & CSS</h1>
+  
+  <h2 class="title">TITULOS, PARAGRAFOS E QUEBRAS DE LINHA</h1>
+  
+  <h1>TITULO DE NIVEL 1</h1>
+  
+    <p> blá blá blá <br> blá blá blá </p> <!-- Paragrafo e quebra de linha -->
+  
+  <h2>TITULO DE NIVEL 2</h2>
+  
+   <p> blá blá blá <br> blá blá blá </p>
+  
+    <h3>TITULO DE NIVEL 3</h3>
+  
+   <p> blá blá blá <br> blá blá blá </p>
+  
+    <h4>TITULO DE NIVEL 4</h4>
+  
+   <p> blá blá blá <br> blá blá blá </p>
+  
+      <h5>TITULO DE NIVEL 5</h5>
+  
+   <p> blá blá blá <br> blá blá blá </p>
+  
+    <h6>TITULO DE NIVEL 6</h6>
+  
+   <p> blá blá blá <br> blá blá blá </p>
+  
+  <h2 class="title">SIMBOLOS E EMOJIS</h1>
+  
+  <p>
+  &reg; <!-- marca registrada -->
+  &copy; <!-- copyright -->
+  &trade; <!---->
+  &euro;
+  &pound;
+  &yen;
+  &cent;
+  &Delta;
+  &uarr;  <!--ver lista na internet-->
+  </p>
+  
+  <p>
+  &#128514;
+  &#128570;
+  &#128100;
+  &#128172;
+  &#129490; <!--ver lista na internet-->
+  </p>
+  
+  <h2 class="title">IMAGENS</h2>
+  
+  <img src="IMAGENS/foto.jpg" alt="Foto"> <!--imagem com caminho e texto alternativo -->
+  
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/HTML5_logo_resized.svg" alt="Foto"> 
+  
+  <p><address>Rua Estrela, 229-camaqua-RS</address></p> <!--Endereço-->
+  
+  <h2 class="title">FORMATAÇÃO DE TEXTO</h2>
+  <p>
+    <b>Frase em negrito</b><br> <!--Sem sentido semantico-->
+    <strong>Frase em destaque</strong> <!--Com sentido semantico-->
+  </p>
+  
+  <p>
+    <i>Frase em itálico</i>  <!--Sem sentido semantico-->
+    <br>
+    <em>Frase com enfase</em>  <!--Com sentido semantico-->
+  </p>
+  
+  <p>
+    <mark style="background-color: lime">Texto marcado</mark><br>
+    <mark>Outro texto marcado</mark>
+  </p> <!--Sem sentido semantico-->
+  
+  <p><big>Texto grande</big><br> <!--Sem sentido semantico (Tag obsoleta)-->
+    <small>Texto pequeno</small> <!--Com sentido semantico-->
+  </p>
+  
+  <p><del>Texto deletado</del><br>
+    <u>Texto sublinhado</u> <!--Sem sentido semantico--> <br>
+    <ins>Texto inserido</ins>
+  </p>
+  
+  <p>Texto sobreescrito X<sup>2</sup> <br>
+    Texto subescrito H<sub>2</sub>O
+  </p>
+  
+<p><code>document.getElementById('teste')</code> <br> <!--indica que o texto é um pedaço de código-->
+    <pre>
+      
+      <code>
+      document.getElementById("search-form").addEventListener("submit", function(event) {
+          event.preventDefault();
+          alert("Realizar busca: " + document.getElementById("search-input").value);
+      });
+
+      function updatePlaceholder() {
+          document.getElementById("search-input").setAttribute("placeholder", " ");
+      }
+      </code>
+    </pre> <!-- escreve o texto exatamente como esta no documento HTML-->
+  </p>
+  
+  <p><q>Isso é uma citação</q> <br> <blockquote cite="https://blog.mettzer.com/tipos-de-citacoes/">
+    <strong> isso é uma citação completa: </strong> O que é uma citação? As citações nada mais são do que referências às informações extraídas de outros trabalhos, como livros, filmes, periódicos, sites e outras fontes que já trabalharam anteriormente com o seu tema.
+  </blockquote></p>
+  
+  <p><abbr title="hipertext markup language">HTML</abbr> e <abbr title="cascading style sheets">CSS</abbr></p>
+  
+  <p><bdo dir="rtl">TEXTO INVERTIDO</bdo></p> <!-- tag inutil -->
+  
+  <h1 class="title">LISTAS</h1>
+  
+  <h3>LISTA ORDENADA</h3>
+  
+  <ol type="I"> <!-- tipos: 1, A, a, I, i -->
+    <li>ELEMENTO</li>
+    <li>ELEMENTO</li>
+    <li>ELEMENTO</li>
+    <li>ELEMENTO</li>
+    <li>ELEMENTO</li>
+    <li>ELEMENTO</li>
+  </ol> <!-- lista ordenada -->
+  
+    <h3>LISTA NÃO ORDENADA</h3>
+  
+  <ul type="circle"> <!-- tipos: disc, circle, square -->
+    <li>ELEMENTO</li>
+    <li>ELEMENTO</li>
+    <li>ELEMENTO</li>
+    <li>ELEMENTO</li>
+    <li>ELEMENTO</li>
+    <li>ELEMENTO</li>
+  </ul> <!-- lista não ordenada -->
+  
+      <h3>LISTAS MISTAS</h3>
+  
+  <ol>
+    <li>Titulo 1</li>
+      <ol type="a">
+        <li>ELEMENTO</li>
+        <li>ELEMENTO</li>
+        <li>ELEMENTO</li>
+        <li>ELEMENTO</li>
+        <li>ELEMENTO</li>
+        <li>ELEMENTO</li>
+      </ol> 
+   
+    <li>Titulo 2</li>
+    <ol type="a">
+      <li>ELEMENTO</li>
+      <li>ELEMENTO</li>
+      <li>ELEMENTO</li>
+      <li>ELEMENTO</li>
+      <li>ELEMENTO</li>
+      <li>ELEMENTO</li>
+    </ol>
+  </ol> <!--lista mista 1 -->
+  
+    <ol>
+    <li>Titulo 1</li>
+      <ul>
+        <li>ELEMENTO</li>
+        <li>ELEMENTO</li>
+        <li>ELEMENTO</li>
+        <li>ELEMENTO</li>
+        <li>ELEMENTO</li>
+        <li>ELEMENTO</li>
+      </ul> 
+   
+    <li>Titulo 2</li>
+    <ul>
+      <li>ELEMENTO</li>
+      <li>ELEMENTO</li>
+      <li>ELEMENTO</li>
+      <li>ELEMENTO</li>
+      <li>ELEMENTO</li>
+      <li>ELEMENTO</li>
+    </ul>
+  </ol><!--lista mista 2-->
+  
+  <h3>LISTA DE DEFINIÇÃO</h3>
+  
+  <dl>
+    <dt>TERMO</dt>
+      <dd>Definição</dd>
+    <dt>TERMO</dt>
+      <dd>Definição</dd>
+  </dt>
+  
+  <h2 class="title">links</h2>
+  
+  <h3>link externo</h2>
+  
+  <p><a href="http://gustavoguanabara.github.io/"target="_blank" rel="external">Isso é um link externo</a></p>
+  
+  <h3>link interno (Next)</h2>
+  
+  <p>
+    <a href="NEW FOLDER/Eu3.html" target="self" rel="next">Isso é um link interno</a> <br>
+    <a href="NEW FOLDER/Eu2.html" target="self" rel="next">Isso é um link interno</a> 
+  </p>
+  
+  <h3>Link nofollow???</h3>
+
+  <p>     
+  <a href="https://www.hostnet.com.br" target="_blank" rel="nofollow">hostnet</a>
+  </p>
+  
+  <h3>link de download</h3>
+  
+  <ul>
+    <li><a href="NEW FOLDER/O-iluminado-Stephen-King.pdf" download="O-iluminado-Stephen-King.pdf" type="application/pdf">Baixar livro em pdf</a></li>
+    
+     <li><a href="NEW FOLDER/O-iluminado-Stephen-King.zip" download="O-iluminado-Stephen-King.zip" type="application/zip">Baixar livro em zip</a></li>
+  </ul> 
+  
+  <h3>IMAGENS DINAMICAS</h3>
+  
+  <picture>
+      <source media="(max-width: 650px)" srcset="IMAGENS/imageP.png" type="image/png">
+    <source media="(max-width: 950px)" srcset="IMAGENS/imageM.png" type="image/png">
+    <source media="(max-width: 1250px)" srcset="IMAGENS/imageG.png" type="image/png">
+    <img src="IMAGENS/imageGG.png" alt="Imagem Grande">
+  </picture>
+  
+  <h3>AUDIOS</h3>
+  
+  <audio src="ÁUDIO/cadela_baia.mp3" controls="" autoplay=""></audio>
+  
+  <audio preload="metadata" controls="" loop=""> 
+    <source src="Áudio/stereo_love.mp3" type="audio/mpeg">
+        <source src="Áudio/stereo_love.ogg" type="audio/ogg">
+    <source src="Áudio/stereo_love.wav" type="audio/wav">
+    <p> 
+      baixe o audio <a href="#">aqui</a>
+    </p>
+  </audio>
+  <h3>Videos</h3>
+  <video src="VIDEOS/cavalo.mp4" controls="" width="300px"></video>
+  <br>
+  
+    
+    <iframe></iframe>
+  </video>
+</body>
+</html>

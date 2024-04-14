@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>
+    Hello, World!
+  </h1>
+  <script>
+  //operadores
+  
+  //de atribuiçao
+  var A=(3+2)
+  var B=(3-2)
+  var C=(3*2)
+  var D=(3/2)
+  var E=(3%2)
+  var F=(3**2)
+  
+  document.write (` ${A},${B},${C},${D},${E},${F}`  + '<br>')
+  
+  //de auto-atribuição
+  
+  A += 2
+  B -= 2
+  C *= 2
+  D /= 2
+  E %= 2
+  F **= 2
+  
+  document.write (` ${A},${B},${C},${D},${E},${F}`  + '<br>')
+  
+ //de incremento
+  
+ A++
+ B--
+ document.write(A +','+ B + '<br>')
+ 
+  
+  //relacionais
+  
+  document.writeln(3>8)
+  document.writeln(3<8)
+  document.writeln(3<=8)
+  document.writeln(3>=8)
+  document.writeln(5==5)
+  document.writeln(5 != 5)
+    
+  //identidade
+    
+  document.writeln(5 === '5')
+  document.writeln(5 !== '5')
+  
+  //lógicos
+  var b1= true
+  var b2= false
+    
+ //Ordem: primeiro ! depois && e depois ||    
+    
+ document.write (!true + ', ' + !false + ' ')
+ document.write (b1 && b2 + ' ')
+ document.write (b1 || b2)
+  
+ //Ternario
+    var media=7   
+    
+   var X= media >= 7 ? ' Aprovado' : ' Reprovado'
+    
+    document.write (X)
+  
+  </script>
+</body>
+</html>

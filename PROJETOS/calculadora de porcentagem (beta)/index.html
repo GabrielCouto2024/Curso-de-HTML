@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Calculadora de porcentagem</title>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  section {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }   
+    
+  input {
+    font-size: 70%;
+    width: 100px;
+    text-align: center;
+  }
+  
+  div {
+    padding: 17px;
+    text-align: right;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    border: dashed 1px black;
+    margin-bottom: 10px;
+  }
+  
+  
+  </style>
+</head>
+<body>
+  <section>
+    
+      <div id="resultado"></div>
+    
+  <p>Capital <input type="number" id="numero" placeholder="Digite um número"> R$</p>
+  <p>Taxa de Juro <input type="number" id="taxa-de-juro" placeholder="Digite um número"> % ao 
+    
+    <select>
+      <option value="Dias">Dia</option>
+      <option value="Meses">Mês</option>
+      <option value="Anos">Ano</option>
+    </select>
+    
+  </p>
+  <p>Tempo <input type="number" id="tempo" placeholder="Digite um número">
+    
+    <select>
+      <option value="Dias">Dias</option>
+      <option value="Meses">Meses</option>
+      <option value="Anos">Anos</option>
+    </select>
+    
+  </p>
+  <p>Juro <input type="number" id="juro" placeholder="Digite um número"> R$</p>
+   
+  <input id="calcular" type="button" value="Calcular">
+    
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

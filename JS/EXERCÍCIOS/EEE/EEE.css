@@ -1,0 +1,27 @@
+body {
+  background-color: cornflowerblue;
+  font-size: 100%;
+  font-family: fantasy;
+}
+header {
+  color: white;
+  text-align: center;
+}
+section {
+  text-align: center;
+  background-color: white;
+  width: 380px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px black;
+  padding: 10px;
+  margin: auto;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+footer {
+  text-align: center;
+  color: white;
+  font-style: italic;
+}

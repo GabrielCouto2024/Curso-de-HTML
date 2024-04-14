@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+  header {
+    background-color: lightgreen;
+    padding: 7px 15px;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.5)    
+    /* tambem existe a sombra "inside" */
+  }
+ 
+  nav {
+   display: flex;
+    justify-content: space-between;
+  }
+  
+  nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+  }
+  
+  nav > a:hover {
+  
+  }
+  
+  main {
+    background-color: white;
+    padding: 0 10px;
+  }
+  
+  section {
+   
+  }
+  
+  article {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 0 10px;
+    border-radius: 10px; 
+  }
+  
+  aside {
+    font-size: 0.8em; 
+    padding: 1px 5px;
+  }
+  
+  footer {
+    margin-top: 10px;
+    padding: 3px 0;
+    color: white;
+    background-color: black;
+  }
+  
+  footer > p {    
+    text-align: center;
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  div {
+    display: flex;
+  }
+  
+  div > img {
+    height: 20px;
+    width: 40px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    font-family: serif;
+  }
+  
+   p {
+    font-family: sans-serif;
+    text-align: justify;
+  }
+  
+  .bigImage {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 0 30px;
+  }
+  
+    </style>
+</head>
+<body>
+  <header>
+    <div>
+    <img id="logo" src="" alt="Logo.png">
+   </div>
+    <br>
+    <nav>
+      <a href="#" target="" rel="">Link</a>
+      <a href="#" target="" rel="">Link</a>
+      <a href="#" target="" rel="">Link</a>
+      <a href="#" target="" rel="">Link</a>
+      <a href="#" target="" rel="">Link</a>
+    </nav>
+  </header>
+     
+  <main>    
+    <section>
+      <h1>SEÇÃO 1</h1>
+      <article>
+        <h2>ARTIGO 1-1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum.
+        </p>
+        <aside>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum.
+        </p>
+      </aside>
+        
+        <img class="bigImage" src="" alt="">
+        
+      </article>
+      <article>
+        <h2>ARTIGO 1-2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum.
+        </p>
+        <aside>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum.
+        </p>
+        </aside>
+        
+         <img class="bigImage" src="" alt="">
+        
+      </article>
+    </section>
+<section>
+      <h1>SEÇÃO 2</h1>
+      <article>
+        <h2>ARTIGO 2-1</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum.
+        </p>
+        <aside>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum.
+        </p>
+        </aside>
+        
+        
+    <img class="bigImage" src="" alt="">
+        
+      </article>  
+      <article>
+        <h2>ARTIGO 2-2</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum.
+        </p>
+        <aside>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet consectetur libero. Integer non eros vel eros consectetur sagittis. Donec eu justo id lectus pulvinar consequat. Phasellus ullamcorper velit eget justo malesuada fermentum.
+        </p>
+        </aside>
+        
+        <img class="bigImage" src="" alt="">
+        
+      </article>
+    </section>       
+  </main>
+  
+  <footer>
+    <p>
+      &copy; GabrielFernandesCouto
+    </p>
+  </footer>
+  
+</body>
+</html>

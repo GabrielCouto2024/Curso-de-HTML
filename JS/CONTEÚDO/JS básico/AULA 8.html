@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Hello, World!</title>
+  <style>
+  div { 
+    background-color: lightBlue;
+    height: 60px;
+    width: 96%;
+    border: solid 2px;
+    Margin: 0 0 20px 0;
+    padding: 0 10px 0 0;
+  }
+  input {
+    width: 180px;
+    border: solid 2px;
+    line-height: 20px;
+  }
+  button {
+    line-height: 20px;
+    width: 30px;
+  }   
+  #res {
+    font-size: 25px;
+    text-align: right;
+    line-height: 15px;
+  </style>
+</head>
+<body>
+  <div>
+    <p id="res"> 
+         RESULTADO
+    </p>
+  </div>
+  <input type="number"name="IMP1" id="IMP1">
+  <input type="number"name="IMP2" id="IMP2">
+  <button id="b1"><strong>+</strong></button>
+  <script>
+  var b1=window.document.querySelector('button#b1')
+  
+  b1.addEventListener('click',somar)
+  
+  function somar() {
+    var res=window.document.getElementById('res')
+    var n1=Number(window.document.querySelector('input#IMP1').value)
+    var n2=Number(window.document.querySelector('input#IMP2').value)
+    res.innerText= n1+n2
+  }    
+  </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>
+    DETRAN-RS
+  </h1>
+  <h2>
+    Calculadora de multas
+  </h2>
+  <p>Digite a velocidade <input type="number" id="txtvel">  <input type="button" onClick="Calc()"></p>
+  <p id="res">
+    Valor: 
+  </p>
+  <script>
+var resBox = window.document.getElementById('res');
+
+function Calc() {
+  var Nvel = Number(window.document.getElementById('txtvel').value);
+    var mult;
+    if (Nvel > 80) {
+        mult = 100;
+    } else if (Nvel >= 60 && Nvel <= 80) {
+        mult = 80;
+    } else {
+        mult = 0;
+    }
+    resBox.innerText += '$'+mult
+}
+   </script>
+</body>
+</html>

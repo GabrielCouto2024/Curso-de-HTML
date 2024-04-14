@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradientes em Css</title>
+  <style>
+  body {
+    padding: 20px;
+    display: flex;
+  }
+  
+  div {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border: 20px solid black;
+    background-color: lightgray;
+    border-image-source: url(borda.png);
+    border-image-slice: 30;
+    border-image-repeat: repeat; /* ou stretch */
+    
+    /* tambem há o shorthand border-image
+    border-image: url(borda.png) 30 repeat
+    */        
+  }
+  
+  </style>
+</head>
+<body>
+      <div>
+        
+      </div>
+</body>
+</html>

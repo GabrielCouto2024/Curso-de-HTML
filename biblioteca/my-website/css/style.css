@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 82%;
+}
+
+header {
+  background-color: blue;
+  padding: 0 10px 10px;
+  text-align: center;
+}
+
+.icones {
+  color: white;
+  font-size: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.logo {
+  margin: 10px auto 0 auto;
+  width: 11%;
+  height: auto;
+}
+
+.icones li {
+  margin: auto;
+}
+
+.barraDePesquisa {
+  display: flex;
+}
+
+.searchButton {
+  width: 9%;
+  height: 25px;
+}
+
+.searchBar {
+  width: 90%;
+  height: 25px;
+  padding-left: 10px;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+
+audio {
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+section {
+  text-align: center;
+  padding: 0 25px;  
+}
+
+.title {
+  font-family: 'Oswald';
+  margin-bottom: 10px;
+}
+
+.bigImage {
+  width: 100%;
+  height: 220px;
+  border: solid 1px;
+  margin-bottom: 5px;
+}
+
+.info {
+  text-align: right;
+  font-size: 90%;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-family: Georgia;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+abbr {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.imagesScroll {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.mediumImage {
+  margin: auto;
+  width: 32%;
+  height: 80px;
+  border: solid 1px;
+}
+
+dl {
+  font-family: Georgia;
+  text-align: left;
+}
+dt {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+dd {
+  margin: 0 0 10px 10px;
+}
+
+.glossario {
+  text-align: left;
+  border: dashed 1px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.lista {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-align: left;
+  list-style-position: inside;
+  margin-bottom: 10px
+}
+
+.sublista {
+  list-style: none;
+}
+
+video {
+   width: 100%;
+  height: 170px;
+  border: solid 1px;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+}

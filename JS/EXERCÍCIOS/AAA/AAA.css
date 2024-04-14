@@ -1,0 +1,22 @@
+body {
+  background-color: bisque;
+  text-align: center;
+  font-family: fantasy;
+}
+header {
+  
+}
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto;
+  box-shadow: 2px 2px 2px 4px black;
+}
+img {
+  height: 50%;
+  width: 50%;
+}
+footer {
+  font-style: italic;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Hello, World!</title>
+</head>
+<body>
+  <script>
+  var Agora= new Date()
+  var Hora= Agora.getHours()
+  console.log( ` Agora são exatamente ${Hora}`  )
+  
+  if (Hora < 12) {
+    console.log('Bom dia')
+  } else if (Hora >= 12 && Hora < 20) {
+    console.log('Boa tarde')
+  } else if (Hora >= 20) {
+    console.log('Boa noite')
+  } else {
+    console.log('oi')
+  }
+  </script>
+</body>
+</html>

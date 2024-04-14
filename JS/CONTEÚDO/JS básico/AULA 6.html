@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1 name="Titulo">
+    Hello, World!
+  </h1>
+  <div id="div1">
+  <p>Este é o paragrafo <strong>1</strong></p>
+  <p> este é o paragrafo <strong>2</strong></p>
+  </div> 
+  <img src="/storage/emulated/0/Pictures/Screenshots/Screenshot_20240118-235247.png" class="pic"alt="My image">
+  <input type="number" id="IPT">
+  <script>
+  
+  var div1= window.document.getElementById('div1')
+  var p1= window.document.getElementsByTagName('p')[0]
+  var p2= window.document.getElementsByTagName('p')[1]
+  var titulo= window.document.getElementsByName('Titulo')[0]
+  
+  console.log(p1.innerText)
+  console.log(p2.innerHTML)
+  
+  var pic= window.document.getElementsByClassName('pic')[0]
+  var ipt= window.document.querySelector('input#IPT')
+  
+  var V=(IPT.value)
+  
+  titulo.style.color="red"
+  div1.style.background="lightGreen"
+  div1.innerText= 'tanto faz'
+  p1.style.color="black"
+  pic.style.height="60px"
+  
+  
+  window.document.write(window.document.charset + '<br>')
+  window.document.write(window.navigator.appName + '<br>')
+  window.document.write(window.document.URL + '<br>')
+  </script>
+</body>
+</html>

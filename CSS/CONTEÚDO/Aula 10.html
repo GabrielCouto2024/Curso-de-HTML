@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+  <style>
+  /* 
+  # = id
+  .   = class
+  :   = pseudo-class
+  ::  = pseudo-element
+  > = children
+  */
+  
+div {
+  display: inline-block;
+  background-color: lightgray;
+  border: 1px solid black;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+  
+  div > p {
+    display: none;
+  }
+  
+  div:hover > p {
+    display: block;
+  }
+  
+  div:hover {
+    background-color: lightblue;
+  }
+  
+  a {
+    text-decoration: none;
+    color: purple;
+  }
+  
+  a:visited {
+    color: blue;
+  }
+  
+  a:hover {
+    color: lightblue;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+  }
+  
+  a::before {
+    content: '=> ';
+    color: black;
+  }
+    
+  
+  a::after {
+    content: ' [link]';
+    color: pink;
+  }
+  
+  </style>
+</head>
+<body>
+    <header>
+      <h1>Pseudoclasses</h1>
+    </header>
+    <main>
+      <div id="d1">01 <p>Bom Dia</p></div>
+      <div id="d2">02</div>
+      <div id="d3">03</div>
+      <ul>
+        <li>
+          <a href="https://gustavoguanabara.github.io" target="_blank">Repositório no github</a>
+        </li>
+        <li>
+          <a href="https://youtube.com/cursoemvideo/" target="_blank">Canal no youtube</a></li>
+        <li>
+          <a href="https://cursoemvideo.com" >Site do curso em video</a>
+        </li>
+        <li>
+          <a href="https://receitas.com" >Site do curso em video</a>
+        </li>
+        <li>
+          <a href="https://wikipedia.com" >Site do curso em video</a>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      
+      <p>&copy; Gabriel Fernandes Couto</p>
+    </footer>
+</body>
+</html>

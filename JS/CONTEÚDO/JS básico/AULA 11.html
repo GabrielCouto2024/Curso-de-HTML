@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Hello, World!</title>
+  <style>
+  button {
+    margin: 0 0 15px 0;
+  }
+  </style>
+</head>
+<body>
+  <input type ="number" id="age">
+  <button id="Calc">
+    CALCULAR
+  </button>
+  <div id="res">
+    RESULTADO
+  </div>
+  <script>
+  var button=document.getElementsByTagName('button')[0]
+  button.addEventListener('click',Calcular)
+  function Calcular() {  
+  var idade = Number(document.querySelector('input#age').value)
+  console.log (` A sua idade é ${idade} anos`  )
+  if (idade >= 18 && idade < 67) {
+    console.log('Voto obrigatorio')}
+    else if (idade >= 16 || idade >= 67) {
+      console.log('Voto opcional')}
+    else {
+      console.log('Não vota')
+    }}
+  </script>
+</body>
+</html>

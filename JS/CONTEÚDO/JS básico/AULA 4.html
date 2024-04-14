@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>
+    Hello, World!
+  </h1>
+  <script> 
+ var nome = window.prompt('Qual o seu nome?');
+
+var n1 = Number(window.prompt('Digite um numero'));
+var n2 = Number(window.prompt('Digite outro numero'));
+  
+var s = n1 + n2;
+  
+document.write('A soma entre ' + n1 + ' e ' + n2 + ' é igual a ' + s + '<br>'); // Concatenação
+
+var linguagem = 'JavaScript';
+  
+window.alert(`Eu estou aprendendo ${linguagem}`  ); // Template string
+  
+//formataçao de texto
+  
+document.write(`  Olá ${nome}! Seu nome tem ${nome.length} letras`  + '<br>');
+document.write('Eu gosto de programar'.toUpperCase()+'<br>');
+document.write('Eu gosto de programar'.toLowerCase()+'<br>');
+  
+//formatação de numero
+  
+var Num= 145.5
+document.write (Num.toFixed(3) + '<br>')
+document.write (Num.toFixed(2).replace('.', ',') + '<br>')
+document.write (Num.toLocaleString ('pt-BR', {style: 'currency', currency: 'BRL'}))
+  
+  </script>
+</body>
+</html>
