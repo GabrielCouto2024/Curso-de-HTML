@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização vertical de caixas</title>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    background-image: url('/storage/emulated/0/CURSO HTML & CSS & JS/biblioteca/imagens/imagens/target001.png');
+    position: relative;
+    /* relative é o valor padrão para qualquer caixa */
+    width: 800px;
+    height: 500px;
+    background-size: 100% 100%;
+    background-color: lightgray;
+}
+  
+  #conteudo {
+        background-image: url('/storage/emulated/0/CURSO HTML & CSS & JS/biblioteca/imagens/imagens/target001.png');
+    
+    
+    position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    left: 50%;
+    top: 50%;
+    
+    /* usando o posicionamento absoluto podemos configurar o left e o top */
+    
+    transform: translate(-50%, -50%);
+    
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    
+    border: 3px solid black;
+  }
+  </style>
+</head>
+<body>
+  <section id="container">
+    <article id="conteudo">
+      
+    </article>
+  </section>  
+</body>
+</html>
