@@ -44,7 +44,7 @@
   .ex3 {
      background-image: url('../../biblioteca/imagens/imagens/wallpaper003.jpg');
     
-    background-size: 100% 35vh;
+    background-size: 100% 100%;
   }
   
     .ex4 {
@@ -53,6 +53,25 @@
     background-size: 100px;
     background-position: center center;
   }
+  
+  .ex5 {
+   margin: auto;
+    width: 35vh;
+    height: 70vh;
+    
+    background-color: slateblue;
+    background-image: url('../../biblioteca/imagens/imagens/eiffel-tower.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* o "contain" faz com que a imagem seja totalmente exibida (sem cortes) */
+    /* o "cover" faz com que a imagem cubra toda a tela mesmo que tenha que ser cortada*/
+    background-attachment: ;
+    /* scroll (padrão) o fundo vai rolar junto com o conteudo */
+    /* fixed -  O fundo n vai rolar */
+    /* background: color image position repeat [size] (Ñ funciona) attachment; */
+    
+  }
+  
   
   </style>
 </head>
@@ -65,6 +84,7 @@
   <div class="ex2"></div>
   <div class="ex3"></div>
   <div class="ex4"></div>
+  <div class="ex5"></div>
   
     </footer>
 </body>
