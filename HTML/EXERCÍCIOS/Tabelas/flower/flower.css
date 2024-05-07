@@ -1,0 +1,17 @@
+table {
+  border-collapse: collapse;
+  width: 400px;
+  height: 400px;
+}
+
+td:hover {
+  background-color: red;
+}
+
+.b {
+  background-color: black;
+}
+
+.y {
+  background-color: gold;
+}
