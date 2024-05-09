@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  iframe {
+    width: 95%;
+    height: 250px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  </style>
+    <title>Segurança em iframes</title>
+</head>
+<body>
+  
+  <h2>Sandbox:</h2>
+  <ul>
+    <li><strong>allow-forms:</strong> Permite formulários dentro do iframe.</li>
+
+    <li><strong>allow-same-origin:</strong> Permite que o conteúdo do iframe acesse o mesmo domínio que o contêiner.</li>
+    
+    <li><strong>allow-scripts:</strong> Permite a execução de scripts no iframe.</li>
+
+  </ul>
+
+  <h2>Referrer Policy:</h2>
+  <ul>
+    <li><strong>no-referrer:</strong> Não envia o cabeçalho Referer ao carregar o conteúdo do iframe.</li>
+    <li><strong>no-referrer-when-downgrade:</strong> Não envia o cabeçalho Referer ao carregar o conteúdo do iframe se o protocolo de destino for menos seguro do que o protocolo de origem.</li>
+  </ul>
+
+  <iframe src="formulário pt 1.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer"></iframe>
+  
+    <h1>Usos adicionais do iframe</h1>
+  
+  <iframe width="100%" height="250" src="https://www.youtube.com/embed/TNQsmPf24go"></iframe>
+  
+
+  
+  <iframe id="map-canvas" class="map_part"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Brazil' SP&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://embedgooglemaps.com">html embed google maps</a> and <a href="https://xn--sms-ln-direkt-utbetalning-gfc.se/">smslån direkt utbetalning</a></iframe>
+
+  <br>
+  
+  <iframe src="https://embed.waze.com/iframe?zoom=11.5&lat=-30.731964&lon=-52.204727&ct=livemap" allowfullscreen></iframe>
+  
+  <p>tambem dá para colocar documentos e apresentações</p>
+</body>
+</html>
