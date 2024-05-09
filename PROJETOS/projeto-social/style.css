@@ -21,6 +21,7 @@ main {
   transform: translate(-50%, -50%);
   
   width: 80vw;
+  max-width: 400px;
   height: 85vh;
   background: transparent url(arquivos/imagens/iphone.png) no-repeat scroll center center;
   background-size: 100% 100%;
