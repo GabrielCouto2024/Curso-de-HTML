@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+  
+  <form action="formulario.php" method="POST">
+    <p>
+      <label for="state">Estado: </label>
+      <select name="estado" id="state">
+        <optgroup label="Região Sul">
+          <option value="RS" selected>Rio Grande do Sul</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="PR">Paraná</option>
+        </optgroup>
+        
+        <optgroup label="Região Sudeste">
+          <option value="SP">São Paulo</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="ES">Espirito Santo</option>
+        </optgroup>     
+      </select>
+    </p>
+      <p>
+        <label for="occupation">Profissão: </label>
+        <input type="text" name="profissao" id="occupation" list="profissoes">
+        <datalist id="profissoes">
+          <optgroup label="Exatas">
+            <option>Engenheiro</option>
+            <option>Contabilista</option>
+            <option>Matematico</option>
+          </optgroup><!--nao esta funcionando-->
+          <optgroup label="Medicina">
+            <option>Terapeuta</option>
+            <option>Cardiologista</option>
+            <option>Dermatologista</option>
+          </optgroup>
+          <optgroup label="tecnologia">
+            <option>Analista de Dados</option>
+            <option>Programador</option>
+            <option>Game Designer</option>
+          </optgroup>
+        </datalist>
+      </p>
+    
+    <p>
+      <label for="message">Mensagem:</label><br>
+      <textarea name="mensagem" id="message" cols="30" rows="10">Sua mensagem...</textarea>
+    </p>
+    
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar"
+    </p>
+  </form>
+  
+</body>
+</html>

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial, Helvetica, sans-serif;
+}
+
+
+header {
+  color: white;
+  background-image: linear-gradient(to right, darkblue, blue);
+  padding: 5px;
+}
+
+h1, h2 {
+  font-variant: small-caps;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section {
+  background-color: lightgray;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  line-height: 2em;
+}
+
+a:visited {
+  color: blue;
+}

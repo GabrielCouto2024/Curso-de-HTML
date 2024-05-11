@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+  <form action="formulario.php" method="POST" autocomplete="on">
+    <fieldset>
+      <legend>Dados Pessoais</legend>
+    <p>
+      <label for="name">Nome: </label>
+      <input type="text" name="nome" id="name" minlength="5" maxlength="20" required>
+    </p>
+    <p>
+      <label for="email">Email: </label>
+      <input type="email" name="txtemail" id="email" required autocomplete="email" placeholder="meuemail@gmail.com">
+    </p>
+    <!--estudar sobre regEx-->
+    <p>
+      <label for="phone">Telefone: </label>
+      <input type="tel" name="telefone" id="phone" required pattern="^\(\d{2}\)\d{5}-\d{4}$" autocomplete="tel" placeholder="(xx)xxxxx-xxxx">
+    </p>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+    </fieldset>    
+  </form>
+</body>
+</html>

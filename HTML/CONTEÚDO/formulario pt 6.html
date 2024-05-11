@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+  
+  <form action="formulario.php" method="POST">
+    <p><label for="color">Cor: </label>
+    <input type="color" name="cor" id="color" value="#ff0000"></p>
+    
+    <p><label for="level">Nivel: </label>
+    <input type="range" name="nivel" id="level" min="1" max="5" value="2"></p>
+    
+    <p>
+      <label for="archive">Arquivo</label>
+     <input type="file" name="arquivo" id="archive">      
+    </p>
+    
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar"
+    </p>
+  </form>
+  
+</body>
+</html>

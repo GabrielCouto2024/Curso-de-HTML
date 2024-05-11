@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(to right, darkred, red);
+  color: white;
+  padding: 5px;
+}
+
+main {
+  padding: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 5px;
+  font-variant: small-caps;
+}
+
+p {
+  text-align: justify;
+}
+
+.bigimg {
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+
+.icone {
+  border-radius: 50%;
+  width: 40px;
+}
+
+footer {
+  padding: 5px;
+  background-image: linear-gradient(to right, darkred, red);
+  text-align: right;
+}

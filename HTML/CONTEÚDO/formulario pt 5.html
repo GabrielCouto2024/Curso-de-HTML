@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+  
+  <form action="formulario.php" method="POST" autocomplete="on">
+    <fieldset>
+      <legend>Sexo</legend>
+      <input type="radio" name="sexo" id="mas" checked value="M"><label for="mas">Masculino</label><br>
+      <input type="radio" name="sexo" id="fem" value="F"><label for="fem">Feminino</label><br>
+    </fieldset>
+    <fieldset>
+      <legend>Esportes Favoritos</legend>
+      <input type="checkbox" name="futebol" id="soccer"><label for="soccer">Futebol</label><br>
+      <input type="checkbox" name="volei" id="volleyball"><label for="volleyball">Vôlei</label><br>
+      <input type="checkbox" name="basquete" id="basketball"><label for="basketball">Basquete</label><br>
+      <input type="checkbox" name="tenis" id="tennis"><label for="tennis">Tênis</label><br>
+    </fieldset>
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">    
+  </form>
+  
+</body>
+</html>

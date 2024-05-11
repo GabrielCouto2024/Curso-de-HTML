@@ -6,17 +6,25 @@
   <style>
 
   </style>
-    <title>Segurança em iframes</title>
+    <title>Formularios</title>
 </head>
 <body>
-  
-<h2>Formulário PHP</h2>
-
-<form method="get" action="formulário.php">
-    Nome: <input type="text" name="nome"><br>
-    Email: <input type="text" name="email"><br>
+  <h1>Meu Formulario</h1>
+  <form action="cadastro.php" method="GET" autocomplete="off"><!--metodo get é o padrão-->
+    
+    <!--Quando usar o get:
+    dados não sensiveis: nome ,sobrenome.
+    quantidade pequena de dados: menos de 3000bytes,
+    Quando usar o post:
+    dados sensiveis: senhas e numero de cartao,
+    envio de arquivos: fotos, documentos.
+    -->
+    
+    <p><label for="nome">Nome:</label>
+      <input type="text" name="txtnome" id="nome"></p>
+    <p><label for="sobrenome">Sobrenome:</label>
+      <input type="text" name="txtsobrenome" id="sobrenome"></p>
     <input type="submit" value="Enviar">
-</form>
-
+  </form>  
 </body>
 </html>
